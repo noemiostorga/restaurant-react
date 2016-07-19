@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { Router, Route, browserHistory, hashHistory } from 'react-router';
+import { Router, Route, hashHistory } from 'react-router';
 
 // Layout
 import ExampleLayout from 'layout/example';
