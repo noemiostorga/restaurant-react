@@ -10,9 +10,9 @@ import ExampleComponent from 'ui/example';
 
 const Site = (
   <Router history={hashHistory}>
-    <Route component={ExampleLayout}>
-      <Route path="/" component={ExampleComponent} />
-    </Route>
+    <Route component={ExampleLayout} />
+    <Route path="/" component={ExampleComponent} />
+   
   </Router>
 );
 
