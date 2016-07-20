@@ -3,16 +3,19 @@ import { render } from 'react-dom';
 import { Router, Route, hashHistory } from 'react-router';
 
 // Layout
-import ExampleLayout from 'layout/example';
 
+import Layout from 'layout/example.js'
 // UI
-import ExampleComponent from 'ui/example';
+import photoContainer from 'components/photoContainer';
+import  boxContainer from 'components/boxContainer';
+
+
 
 const Site = (
   <Router history={hashHistory}>
-    <Route component={ExampleLayout} />
-    <Route path="/" component={ExampleComponent} />
-   
+  	<Route component={Layout}>
+	   <Route path="/" component={photoContainer} />
+    </Route>
   </Router>
 );
 
