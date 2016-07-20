@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router';
 
 import BoxContainer from 'components/boxContainer.js';
-import Header from 'components/header.js';
+import HeaderContainer from 'components/headerContainer.js';
 import PhotoContainer from 'components/photoContainer.js';
 
 export default React.createClass({
@@ -10,7 +10,7 @@ export default React.createClass({
     return (
       <div className="page">
       	
-      	<Header />
+      	<HeaderContainer />
 
       	<BoxContainer />
 
