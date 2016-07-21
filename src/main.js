@@ -7,8 +7,7 @@ import { Router, Route, hashHistory } from 'react-router';
 import Layout from 'layout/example.js'
 // UI
 import photoContainer from 'components/photoContainer';
-import  boxContainer from 'components/boxContainer';
-
+import boxContainer from 'components/boxContainer';
 
 
 const Site = (

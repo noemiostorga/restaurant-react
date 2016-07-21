@@ -4,6 +4,7 @@ import {Link} from 'react-router';
 import BoxContainer from 'components/boxContainer.js';
 import HeaderContainer from 'components/headerContainer.js';
 import PhotoContainer from 'components/photoContainer.js';
+import MenuContainer from 'components/menuContainer.js';
 
 export default React.createClass({
   render: function () {
@@ -14,6 +15,8 @@ export default React.createClass({
 
       	<BoxContainer />
 
+        <MenuContainer />
+        
       	<ul id="nav">
       		<li><Link to="/">Story</Link></li>
       		<li><Link to="/menu">Menu</Link></li>

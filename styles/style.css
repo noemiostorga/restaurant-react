@@ -1,0 +1,11 @@
+.socialMedia{
+	float: right;
+	display: inline;
+}
+.socialMedia li{
+	list-style: none;
+	display:inline;
+	padding-right: 25px;
+	font-size: 2em;
+
+}
